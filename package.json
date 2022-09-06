@@ -21,6 +21,7 @@
     "hook:pre-commit": "techtrain-railway hook:pre-commit",
     "hook:update": "simple-git-hooks",
     "station2:prettier": "prettier -c ./src/station2.html",
+    "an": "prettier --write ./test.html",
     "postinstall": "yarn hook:update && yarn login:techtrain"
   },
   "simple-git-hooks": {

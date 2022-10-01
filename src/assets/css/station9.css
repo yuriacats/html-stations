@@ -30,19 +30,22 @@ background-color:#ffffff;
 main{ 
  display:flex; 
  justify-content:center; 
- align-items: center 
+ align-items: center; 
 } 
 
-@media(max-width:1200px){
-  .card__title{
-    font-size:12px;
-  }
+@media (max-width: 1200px){
+ .card__title{
+   font-size:12px;
+ }
+
   .card__discription{
-    font-size:10px;
-  }
+   font-size:10px;
+ }
+
 } 
-@media(max-width:768px){
+
+@media(max-width: 768px){
   .card__discription{
-   display:none;
+   display: none;
   }
 } 

@@ -8,7 +8,7 @@ color:#282828
 .card__title{
 font-size:14px;
 }
-.card__discription{
+.card__description{
 font-size:12px;
 }
 .card__img-top{
@@ -38,14 +38,14 @@ main{
    font-size:12px;
  }
 
-  .card__discription{
+  .card__description{
    font-size:10px;
  }
 
 } 
 
 @media(max-width: 768px){
-  .card__discription{
+  .card__description{
    display: none;
   }
 } 
